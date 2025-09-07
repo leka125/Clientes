@@ -1,0 +1,22 @@
+<div class="app-container">
+  <mat-toolbar color="primary" class="app-toolbar">
+    <mat-icon class="toolbar-icon">people</mat-icon>
+    <span>Sistema de Gestión de Clientes</span>
+  </mat-toolbar>
+
+  <main class="main-content">
+    <div class="content-wrapper">
+      <h1>Consulta de Clientes</h1>
+      
+      <app-cliente-form 
+        (buscarCliente)="onBuscarCliente($event)"
+      ></app-cliente-form>
+
+      <app-cliente-detail
+        [cliente]="cliente"
+        [loading]="loading"
+        [error]="error"
+      ></app-cliente-detail>
+    </div>
+  </main>
+</div>

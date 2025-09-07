@@ -1,0 +1,33 @@
+<form [formGroup]="clienteForm" (ngSubmit)="onSubmit()" class="cliente-form">
+  <mat-form-field appearance="outline" class="full-width">
+    <mat-label>Número de Identificación</mat-label>
+    <input 
+      matInput 
+      formControlName="identificacion" 
+      placeholder="Ingrese la identificación"
+      autocomplete="off"
+    >
+    <mat-icon matSuffix>search</mat-icon>
+    
+    <mat-error *ngIf="identificacion?.hasError('required')">
+      La identificación es requerida
+    </mat-error>
+    <mat-error *ngIf="identificacion?.hasError('minlength')">
+      Mínimo 3 caracteres
+    </mat-error>
+    <mat-error *ngIf="identificacion?.hasError('pattern')">
+      Solo se permiten letras y números
+    </mat-error>
+  </mat-form-field>
+
+  <button 
+    mat-raised-button 
+    color="primary" 
+    type="submit"
+    [disabled]="clienteForm.invalid"
+    class="search-button"
+  >
+    <mat-icon>search</mat-icon>
+    Buscar Cliente
+  </button>
+</form>

@@ -1,0 +1,66 @@
+<div class="cliente-detail-container">
+  <!-- Estado de carga -->
+  <div *ngIf="loading" class="loading-state">
+    <app-loading-spinner></app-loading-spinner>
+  </div>
+
+  <!-- Estado de error -->
+  <div *ngIf="error && !loading" class="error-state">
+    <mat-card class="error-card">
+      <mat-card-header>
+        <mat-icon mat-card-avatar color="warn">error</mat-icon>
+        <mat-card-title>Error</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{ error }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <!-- Estado de éxito -->
+  <div *ngIf="cliente && !loading && !error" class="success-state">
+    <mat-card class="cliente-card">
+      <mat-card-header>
+        <div mat-card-avatar class="cliente-avatar">
+          <mat-icon>person</mat-icon>
+        </div>
+        <mat-card-title>{{ cliente.nombre }} {{ cliente.apellido }}</mat-card-title>
+        <mat-card-subtitle>ID: {{ cliente.idCliente }}</mat-card-subtitle>
+      </mat-card-header>
+      
+      <mat-card-content>
+        <div class="cliente-info">
+          <div class="info-item">
+            <mat-icon>badge</mat-icon>
+            <span><strong>Identificación:</strong> {{ cliente.identificacion }}</span>
+          </div>
+          <div class="info-item">
+            <mat-icon>email</mat-icon>
+            <span><strong>Email:</strong> {{ cliente.email }}</span>
+          </div>
+          <div class="info-item">
+            <mat-icon>event</mat-icon>
+            <span><strong>Fecha Creación:</strong> {{ cliente.fechaCreacion | date:'medium' }}</span>
+          </div>
+          <div class="info-item">
+            <mat-icon>update</mat-icon>
+            <span><strong>Última Actualización:</strong> {{ cliente.fechaActualizacion | date:'medium' }}</span>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <!-- Estado inicial -->
+  <div *ngIf="!cliente && !loading && !error" class="initial-state">
+    <mat-card class="welcome-card">
+      <mat-card-content>
+        <div class="welcome-content">
+          <mat-icon class="welcome-icon">search</mat-icon>
+          <h3>Buscar Cliente</h3>
+          <p>Ingrese el número de identificación para buscar la información del cliente</p>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
