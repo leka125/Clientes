@@ -1,0 +1,17 @@
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\bin\Debug\net7.0\Clientes.Repositories.deps.json
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\bin\Debug\net7.0\Clientes.Repositories.runtimeconfig.json
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\bin\Debug\net7.0\Clientes.Repositories.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\bin\Debug\net7.0\Clientes.Repositories.pdb
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\bin\Debug\net7.0\Clientes.DTO.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\bin\Debug\net7.0\Clientes.DTO.pdb
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\obj\Debug\net7.0\Clientes.Repositories.csproj.AssemblyReference.cache
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\obj\Debug\net7.0\Clientes.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\obj\Debug\net7.0\Clientes.Repositories.AssemblyInfoInputs.cache
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\obj\Debug\net7.0\Clientes.Repositories.AssemblyInfo.cs
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\obj\Debug\net7.0\Clientes.Repositories.csproj.CoreCompileInputs.cache
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\obj\Debug\net7.0\Clientes.803A8A25.Up2Date
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\obj\Debug\net7.0\Clientes.Repositories.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\obj\Debug\net7.0\refint\Clientes.Repositories.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\obj\Debug\net7.0\Clientes.Repositories.pdb
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\obj\Debug\net7.0\Clientes.Repositories.genruntimeconfig.cache
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Repositories\obj\Debug\net7.0\ref\Clientes.Repositories.dll

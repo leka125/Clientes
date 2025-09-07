@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Clientes.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Clientes.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clientes.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clientes.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Clientes.DTO/Clientes.DTO.csproj",
+      "msbuildProject": "../Clientes.DTO/Clientes.DTO.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Clientes.DTO >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Leka125\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Cliente.Repositories\\Clientes.Repositories.csproj",
+      "projectName": "Clientes.Repositories",
+      "projectPath": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Cliente.Repositories\\Clientes.Repositories.csproj",
+      "packagesPath": "C:\\Users\\Leka125\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Cliente.Repositories\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Leka125\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.DTO\\Clientes.DTO.csproj": {
+              "projectPath": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.DTO\\Clientes.DTO.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

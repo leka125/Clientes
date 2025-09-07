@@ -1,0 +1,17 @@
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\bin\Debug\net7.0\Clientes.Services.deps.json
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\bin\Debug\net7.0\Clientes.Services.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\bin\Debug\net7.0\Clientes.Services.pdb
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\obj\Debug\net7.0\Clientes.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\obj\Debug\net7.0\Clientes.Services.AssemblyInfoInputs.cache
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\obj\Debug\net7.0\Clientes.Services.AssemblyInfo.cs
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\obj\Debug\net7.0\Clientes.Services.csproj.CoreCompileInputs.cache
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\obj\Debug\net7.0\Clientes.Services.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\obj\Debug\net7.0\refint\Clientes.Services.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\obj\Debug\net7.0\Clientes.Services.pdb
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\obj\Debug\net7.0\ref\Clientes.Services.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\bin\Debug\net7.0\Clientes.DTO.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\bin\Debug\net7.0\Clientes.Repositories.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\bin\Debug\net7.0\Clientes.DTO.pdb
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\bin\Debug\net7.0\Clientes.Repositories.pdb
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\obj\Debug\net7.0\Clientes.Services.csproj.AssemblyReference.cache
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.Services\obj\Debug\net7.0\Clientes.25873713.Up2Date

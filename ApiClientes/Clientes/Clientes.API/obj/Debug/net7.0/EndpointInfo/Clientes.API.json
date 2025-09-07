@@ -1,0 +1,254 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Clientes API",
+    "description": "API para consulta de clientes",
+    "contact": {
+      "name": "Equipo de Desarrollo",
+      "email": "dev@empresa.com"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Clientes/{identificacion}": {
+      "get": {
+        "tags": [
+          "Clientes"
+        ],
+        "summary": "Obtiene un cliente por su número de identificación",
+        "parameters": [
+          {
+            "name": "identificacion",
+            "in": "path",
+            "description": "Número de identificación del cliente",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "example": {
+                    "IdCliente": 1,
+                    "Identificacion": "10000001",
+                    "Nombre": "Juan",
+                    "Apellido": "Pérez",
+                    "Email": "juan.perez@email.com",
+                    "FechaCreacion": "2025-08-08T13:54:53.9732212-05:00",
+                    "FechaActualizacion": "2025-09-06T13:54:53.9739016-05:00"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "example": {
+                    "IdCliente": 1,
+                    "Identificacion": "10000001",
+                    "Nombre": "Juan",
+                    "Apellido": "Pérez",
+                    "Email": "juan.perez@email.com",
+                    "FechaCreacion": "2025-08-08T13:54:54.0113366-05:00",
+                    "FechaActualizacion": "2025-09-06T13:54:54.0113402-05:00"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "example": {
+                    "IdCliente": 1,
+                    "Identificacion": "10000001",
+                    "Nombre": "Juan",
+                    "Apellido": "Pérez",
+                    "Email": "juan.perez@email.com",
+                    "FechaCreacion": "2025-08-08T13:54:54.0121529-05:00",
+                    "FechaActualizacion": "2025-09-06T13:54:54.0121552-05:00"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Clientes": {
+      "get": {
+        "tags": [
+          "Clientes"
+        ],
+        "summary": "Obtiene todos los clientes",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "example": {
+                      "IdCliente": 1,
+                      "Identificacion": "10000001",
+                      "Nombre": "Juan",
+                      "Apellido": "Pérez",
+                      "Email": "juan.perez@email.com",
+                      "FechaCreacion": "2025-08-08T13:54:54.0511934-05:00",
+                      "FechaActualizacion": "2025-09-06T13:54:54.0511959-05:00"
+                    }
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "example": {
+                      "IdCliente": 1,
+                      "Identificacion": "10000001",
+                      "Nombre": "Juan",
+                      "Apellido": "Pérez",
+                      "Email": "juan.perez@email.com",
+                      "FechaCreacion": "2025-08-08T13:54:54.0518835-05:00",
+                      "FechaActualizacion": "2025-09-06T13:54:54.0518856-05:00"
+                    }
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "example": {
+                      "IdCliente": 1,
+                      "Identificacion": "10000001",
+                      "Nombre": "Juan",
+                      "Apellido": "Pérez",
+                      "Email": "juan.perez@email.com",
+                      "FechaCreacion": "2025-08-08T13:54:54.0522659-05:00",
+                      "FechaActualizacion": "2025-09-06T13:54:54.0522674-05:00"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5328D27E-D192-4D25-B37A-1E12A300E346}|Clientes.API\\Clientes.API.csproj|c:\\dev\\pruebatecnica\\apiclientes\\clientes\\clientes.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5328D27E-D192-4D25-B37A-1E12A300E346}|Clientes.API\\Clientes.API.csproj|solutionrelative:clientes.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5328D27E-D192-4D25-B37A-1E12A300E346}|Clientes.API\\Clientes.API.csproj|c:\\dev\\pruebatecnica\\apiclientes\\clientes\\clientes.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5328D27E-D192-4D25-B37A-1E12A300E346}|Clientes.API\\Clientes.API.csproj|solutionrelative:clientes.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5328D27E-D192-4D25-B37A-1E12A300E346}|Clientes.API\\Clientes.API.csproj|c:\\dev\\pruebatecnica\\apiclientes\\clientes\\clientes.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5328D27E-D192-4D25-B37A-1E12A300E346}|Clientes.API\\Clientes.API.csproj|solutionrelative:clientes.api\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EFB9BC-7135-4925-89F7-E76356AC903E}|Clientes.Services\\Clientes.Services.csproj|c:\\dev\\pruebatecnica\\apiclientes\\clientes\\clientes.services\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EFB9BC-7135-4925-89F7-E76356AC903E}|Clientes.Services\\Clientes.Services.csproj|solutionrelative:clientes.services\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EFB9BC-7135-4925-89F7-E76356AC903E}|Clientes.Services\\Clientes.Services.csproj|c:\\dev\\pruebatecnica\\apiclientes\\clientes\\clientes.services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EFB9BC-7135-4925-89F7-E76356AC903E}|Clientes.Services\\Clientes.Services.csproj|solutionrelative:clientes.services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EFB9BC-7135-4925-89F7-E76356AC903E}|Clientes.Services\\Clientes.Services.csproj|c:\\dev\\pruebatecnica\\apiclientes\\clientes\\clientes.services\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EFB9BC-7135-4925-89F7-E76356AC903E}|Clientes.Services\\Clientes.Services.csproj|solutionrelative:clientes.services\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Clientes.API\\appsettings.json",
+              "ToolTip": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.API\\appsettings.json",
+              "RelativeToolTip": "Clientes.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-07T02:05:39.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.API\\Program.cs",
+              "RelativeDocumentMoniker": "Clientes.API\\Program.cs",
+              "ToolTip": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.API\\Program.cs",
+              "RelativeToolTip": "Clientes.API\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T01:54:49.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.Services\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Clientes.Services\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.Services\\ServiceExtensions.cs",
+              "RelativeToolTip": "Clientes.Services\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T01:52:55.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BusinessException.cs",
+              "DocumentMoniker": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.Services\\BusinessException.cs",
+              "RelativeDocumentMoniker": "Clientes.Services\\BusinessException.cs",
+              "ToolTip": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.Services\\BusinessException.cs",
+              "RelativeToolTip": "Clientes.Services\\BusinessException.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T01:52:18.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "Clientes.Services\\ClienteService.cs",
+              "ToolTip": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.Services\\ClienteService.cs",
+              "RelativeToolTip": "Clientes.Services\\ClienteService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T01:25:58.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.API\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Clientes.API\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Dev\\PruebaTecnica\\ApiClientes\\Clientes\\Clientes.API\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Clientes.API\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAjwDgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T01:25:58.74Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

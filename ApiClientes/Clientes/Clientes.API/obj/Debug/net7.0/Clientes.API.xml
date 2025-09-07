@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Clientes.API</name>
+    </assembly>
+    <members>
+        <member name="M:Clientes.API.Controllers.ClientesController.GetClientePorIdentificacion(System.String)">
+            <summary>
+            Obtiene un cliente por su número de identificación
+            </summary>
+            <param name="identificacion">Número de identificación del cliente</param>
+            <returns>Información del cliente si existe</returns>
+        </member>
+        <member name="M:Clientes.API.Controllers.ClientesController.GetAllClientes">
+            <summary>
+            Obtiene todos los clientes
+            </summary>
+            <returns>Lista de todos los clientes</returns>
+        </member>
+    </members>
+</doc>

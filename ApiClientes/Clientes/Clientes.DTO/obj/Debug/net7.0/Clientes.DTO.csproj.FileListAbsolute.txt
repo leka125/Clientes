@@ -1,0 +1,11 @@
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.DTO\bin\Debug\net7.0\Clientes.DTO.deps.json
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.DTO\bin\Debug\net7.0\Clientes.DTO.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.DTO\bin\Debug\net7.0\Clientes.DTO.pdb
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.DTO\obj\Debug\net7.0\Clientes.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.DTO\obj\Debug\net7.0\Clientes.DTO.AssemblyInfoInputs.cache
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.DTO\obj\Debug\net7.0\Clientes.DTO.AssemblyInfo.cs
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.DTO\obj\Debug\net7.0\Clientes.DTO.csproj.CoreCompileInputs.cache
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.DTO\obj\Debug\net7.0\Clientes.DTO.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.DTO\obj\Debug\net7.0\refint\Clientes.DTO.dll
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.DTO\obj\Debug\net7.0\Clientes.DTO.pdb
+C:\Dev\PruebaTecnica\ApiClientes\Clientes\Clientes.DTO\obj\Debug\net7.0\ref\Clientes.DTO.dll
